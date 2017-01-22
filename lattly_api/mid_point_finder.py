@@ -1,19 +1,15 @@
 __author__ = 'yanikafarrugia'
 
-import logging
-
-from flask import Flask
-
 
 # Initialize the Flask application
-app = Flask(__name__)
+# app = Flask(__name__)
 
-logger = logging.getLogger('lattly')
+# logger = logging.getLogger('lattly')
 
 
-@app.route('/')
-def index():
-	return "Hello, World!"
+# @app.route('/')
+# def index():
+#	return "Hello, World!"
 
 # Point FindCenterMidPoint(List<Point> points, Point midPoint);
 # Point FindMidPoint(List<Point> points);
@@ -53,5 +49,5 @@ def index():
 
 # api.add_resource(MidPointFinder, '/')
 
-if __name__ == '__main__':
-	app.run(debug = True)
+# if __name__ == '__main__':
+#	app.run(debug = True)

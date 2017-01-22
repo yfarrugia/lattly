@@ -87,3 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# keys
+.heroku keys:add
+.heroku keys:add.pub
